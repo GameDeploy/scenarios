@@ -1,0 +1,17 @@
+title: GameDeploy scenario schema
+description: A schema to validate a GameDeploy scenario.yaml
+type: object
+required:
+  - name
+  - description
+  - etag
+properties:
+  name:
+    type: string
+    description: The name of scenario
+  description:
+    type: string
+    description: The description of scenario
+  etag:
+    type: string
+    description: Unique for single scenario ETag
